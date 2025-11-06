@@ -119,7 +119,7 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#88846f"
+				"foreground": "#7c7c7c"
 			}
 		},
 		{
@@ -159,7 +159,6 @@
 			"name": "Sublime C# numeric suffix",
 			"scope": "constant.numeric.other.suffix, keyword.other.unit",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -181,7 +180,6 @@
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#F8F8F2"
 			}
 		},
@@ -196,7 +194,7 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#F92672",
 			}
 		},
 		{
@@ -204,7 +202,6 @@
 			"scope": "keyword.other.var.cs, keyword.other.namespace, keyword.operator.arrow, keyword.other.class, keyword.other.enum, keyword.type, keyword.other.get, keyword.other.set",
 			"settings": {
 				"foreground": "#66D9EF",
-				"fontStyle": ""
 			}
 		},
 		{
@@ -218,7 +215,6 @@
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#F92672"
 			}
 		},
@@ -226,7 +222,6 @@
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#F92672"
 			}
 		},
@@ -248,7 +243,6 @@
 			"name": "Sublime C# template type parameter",
 			"scope": "entity.name.type.type-parameter",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -263,7 +257,6 @@
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#A6E22E"
 			}
 		},
@@ -271,7 +264,6 @@
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#A6E22E"
 			}
 		},
@@ -286,7 +278,6 @@
 			"name": "Function argument",
 			"scope": "variable.parameter, entity.name.variable.parameter",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#FD971F"
 			}
 		},
@@ -294,7 +285,6 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#F92672"
 			}
 		},
@@ -302,7 +292,6 @@
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#A6E22E"
 			}
 		},
@@ -317,7 +306,6 @@
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -325,7 +313,6 @@
 			"name": "Library constant",
 			"scope": "support.constant",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -333,16 +320,13 @@
 			"name": "Library class/type",
 			"scope": "support.type, support.class",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
 		{
 			"name": "Library variable",
 			"scope": "support.other.variable",
-			"settings": {
-				"fontStyle": ""
-			}
+			"settings": {}
 		},
 		{
 			"name": "JSON String",
@@ -416,7 +400,6 @@
 			"name": "Markup Inline",
 			"scope": "markup.inline.raw",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#FD971F"
 			}
 		},
@@ -446,7 +429,6 @@
 			"name": "Markdown Quote",
 			"scope": "markup.quote.markdown",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#75715E"
 			}
 		},
@@ -474,9 +456,7 @@
 		{
 			"name": "Markdown Emphasis",
 			"scope": "markup..markdown",
-			"settings": {
-				"fontStyle": ""
-			}
+			"settings": {}
 		},
 		{
 			"name": "Markdown Punctuation Definition Link",
@@ -522,7 +502,6 @@
 			"name": "this.self",
 			"scope": "variable.language, keyword.other.this, keyword.other.base, keyword.other.value",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#FD971F"
 			}
 		},
@@ -531,7 +510,6 @@
 			"name": "Sublime C++ White highlights",
 			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, storage.modifier.pointer.cpp, storage.modifier.reference.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#F8F8F2"
 			}
 		},
@@ -539,7 +517,6 @@
 			"name": "Sublime C++ Non numeric suffix",
 			"scope": "keyword.other.unit.suffix.integer.cpp, keyword.other.unit.suffix.floating-point.cpp",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#AE81FF"
 			}
 		},
@@ -547,7 +524,6 @@
 			"name": "Sublime C++ Blue highlights",
 			"scope": "entity.name.function.call.cpp, entity.name.function.member.cpp",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -563,7 +539,6 @@
 			"scope": "storage.type.namespace.definition.cpp",
 			"settings": {
 				"foreground": "#F92672",
-				"fontStyle": ""
 			}
 		},
 		{
@@ -571,7 +546,6 @@
 			"scope": "storage.type.modifier.access",
 			"settings": {
 				"foreground": "#F92672",
-				"fontStyle": ""
 			}
 		},
 		{
@@ -586,7 +560,6 @@
 			"name": "Inherited class",
 			"scope": "meta.qualified_type.cpp, entity.name.type.cpp",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#A6E22E"
 			}
 		},
@@ -595,7 +568,6 @@
 			"name": "Sublime C White highlights",
 			"scope": "variable.parameter.preprocessor.c, entity.name.function.preprocessor.c, variable.parameter.probably.c, keyword.operator.decrement.c, keyword.operator.increment.c, keyword.operator.assignment.c, keyword.operator.assignment.compound.c, keyword.operator.assignment.compound.bitwise.c, keyword.operator.bitwise.c, keyword.operator.bitwise.shift.c, keyword.operator.logical.c, keyword.operator.ternary.c, keyword.operator.c, keyword.operator.comparison.c, variable.parameter.c",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#F8F8F2"
 			}
 		},
@@ -603,15 +575,14 @@
 			"name": "Sublime C Non numeric suffix",
 			"scope": "keyword.other.unit.suffix.integer.c, keyword.other.unit.suffix.floating-point.c",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#AE81FF"
+				"foreground": "#AE81FF",
+				"fontStyle":
 			}
 		},
 		{
 			"name": "Sublime C Blue highlights",
 			"scope": "entity.name.function.c, entity.name.function.member.c",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -620,7 +591,6 @@
 			"name": "Sublime Python Blue highlights",
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#66D9EF"
 			}
 		},
