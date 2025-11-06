@@ -1,0 +1,23 @@
+{
+  "name": "monokai-remastered",
+  "displayName": "Monokai Remastered",
+  "description": "Monokai Remastered é uma releitura moderna do clássico Monokai.",
+  "version": "0.0.1",
+  "publisher": "Willian Juliate",
+  "icon": "mr.png",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Remastered",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Monokai Remastered-color-theme.json"
+      }
+    ]
+  }
+}
