@@ -576,7 +576,6 @@
 			"scope": "keyword.other.unit.suffix.integer.c, keyword.other.unit.suffix.floating-point.c",
 			"settings": {
 				"foreground": "#AE81FF",
-				"fontStyle":
 			}
 		},
 		{
