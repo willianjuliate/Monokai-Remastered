@@ -133,7 +133,10 @@
 			"name": "Template Definition",
 			"scope": [
 				"punctuation.definition.template-expression",
-				"punctuation.section.embedded"
+				"punctuation.section.embedded",
+				"punctuation.definition.tag",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end"
 			],
 			"settings": {
 				"foreground": "#F92672"
