@@ -116,6 +116,13 @@
 			}
 		},
 		{
+			"name": "PHP Variable Dollar Sign",
+			"scope": "punctuation.definition.variable.php",
+			"settings": {
+				"foreground": "#AE81FF",
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
