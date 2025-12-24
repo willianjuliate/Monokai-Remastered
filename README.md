@@ -21,3 +21,9 @@ Mantém o contraste vibrante, as cores expressivas e a legibilidade impecável �
 | **Strings / Highlights** | `#5DC863` | Verde suave para realce visual |
 | **Variables / Constants** | `#E6DB74` | Amarelo quente para contraste |
 | **Background** | `#0C0C0C` | Preto absoluto, sem brilho |
+
+--
+
+## Install
+ - vsce package
+ - code --install-extension .\monokai-remastered-0.0.1.vsix
