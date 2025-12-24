@@ -123,10 +123,21 @@
 			}
 		},
 		{
+			"name": "PHP Constants - Built-in",
+			"scope": [
+				"support.constant.core.php",
+				"support.constant.std.php",
+				"constant.language.php"
+			],
+			"settings": {
+				"foreground": "#AE81FF"
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#ffb476",
+				"foreground": "#868686",
 				"fontStyle": "italic"
 			}
 		},
