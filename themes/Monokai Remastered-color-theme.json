@@ -4,14 +4,14 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#121212",
-		"editor.foreground": "#f8f8f2",
+		"editor.foreground": "#E6E6E3",
 		"editor.selectionHighlightBackground": "#575b6180",
 		"editor.selectionBackground": "#878b9180",
 		"editor.wordHighlightBackground": "#4a4a7680",
 		"editor.wordHighlightStrongBackground": "#6a6a9680",
 		"editor.lineHighlightBackground": "#1a1a1a",
 		"editorLineNumber.activeForeground": "#c2c2bf",
-		"editorCursor.foreground": "#f8f8f0",
+		"editorCursor.foreground": "#E6E6E3",
 		"editorWhitespace.foreground": "#464741",
 		"editorGroupHeader.tabsBackground": "#121212",
 		"editorGroup.dropBackground": "#12121280",
@@ -31,21 +31,23 @@
 		"list.inactiveSelectionBackground": "#121212",
 		"list.hoverBackground": "#1a1a1a",
 		"list.dropBackground": "#121212",
-		"list.highlightForeground": "#f8f8f2",
+		"list.highlightForeground": "#E6E6E3",
 		"selection.background": "#1a1a1a",
 		"button.background": "#1a1a1a",
 		"minimap.selectionHighlight": "#878b9180",
 		"tab.inactiveBackground": "#171717",
 		"tab.border": "#121212",
-		"tab.inactiveForeground": "#888888",
+		"tab.inactiveForeground": "#474746",
+		"tab.unfocusedInactiveForeground": "#474746",
+		"tab.unfocusedActiveForeground": "#F2F2EE",
 		"tab.lastPinnedBorder": "#121212",
 		"widget.shadow": "#00000098",
 		"progressBar.background": "#1a1a1a",
 		"badge.background": "#1a1a1a",
-		"badge.foreground": "#f8f8f2",
-		"panelTitle.activeForeground": "#f8f8f2",
+		"badge.foreground": "#E6E6E3",
+		"panelTitle.activeForeground": "#E6E6E3",
 		"panelTitle.activeBorder": "#1a1a1a",
-		"panelTitle.inactiveForeground": "#1a1a1a",
+		"panelTitle.inactiveForeground": "#B8B8B2",
 		"panel.border": "#1a1a1a",
 		"settings.focusedRowBackground": "#1212125A",
 		"titleBar.activeBackground": "#121212",
@@ -57,7 +59,7 @@
 		"statusBarItem.remoteBackground": "#AC6218",
 		"ports.iconRunningProcessForeground": "#ccccc7",
 		"activityBar.background": "#121212",
-		"activityBar.foreground": "#f8f8f2",
+		"activityBar.foreground": "#E6E6E3",
 		"sideBar.background": "#121212",
 		"sideBar.border": "#1a1a1a",
 		"sideBarSectionHeader.background": "#121212",
@@ -84,6 +86,11 @@
 		"peekViewResult.selectionBackground": "#121212",
 		"peekViewResult.matchHighlightBackground": "#1a1a1a",
 		"peekViewEditor.matchHighlightBackground": "#1a1a1a",
+		"terminal.background": "#141414",
+		"terminal.foreground": "#F2F2EE",
+		"terminalCursor.foreground": "#4b4b4a",
+		"terminal.selectionBackground": "#2d2d2d",
+		"terminal.inactiveSelectionBackground": "#1d1d1d",
 		"terminal.ansiBlack": "#333333",
 		"terminal.ansiRed": "#C4265E",
 		"terminal.ansiGreen": "#86B42B",
@@ -91,7 +98,7 @@
 		"terminal.ansiBlue": "#6A7EC8",
 		"terminal.ansiMagenta": "#8C6BC8",
 		"terminal.ansiCyan": "#56ADBC",
-		"terminal.ansiWhite": "#e3e3dd",
+		"terminal.ansiWhite": "#F0F0EA",
 		"terminal.ansiBrightBlack": "#666666",
 		"terminal.ansiBrightRed": "#f92672",
 		"terminal.ansiBrightGreen": "#A6E22E",
@@ -99,12 +106,12 @@
 		"terminal.ansiBrightBlue": "#819aff",
 		"terminal.ansiBrightMagenta": "#AE81FF",
 		"terminal.ansiBrightCyan": "#66D9EF",
-		"terminal.ansiBrightWhite": "#f8f8f2"
+		"terminal.ansiBrightWhite": "#F2F2EE"
 	},
 	"tokenColors": [
 		{
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
@@ -113,20 +120,16 @@
 				"source.groovy.embedded"
 			],
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
 			"scope": "keyword.control.return",
-			"settings": {
-				"fontStyle": "italic"
-			}
+			"settings": {}
 		},
 		{
 			"scope": "entity.name.function",
-			"settings": {
-				"fontStyle": "italic"
-			}
+			"settings": {}
 		},
 		{
 			"name": "PHP Variable Dollar Sign",
@@ -150,8 +153,7 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#868686",
-				"fontStyle": "italic"
+				"foreground": "#868686"
 			}
 		},
 		{
@@ -180,7 +182,7 @@
 				"meta.template.expression"
 			],
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
@@ -215,7 +217,7 @@
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
@@ -243,7 +245,7 @@
 			"name": "Sublime C# null coalescing",
 			"scope": "keyword.operator.null-conditional.cs",
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
@@ -264,7 +266,7 @@
 			"name": "Sublime C# namespace",
 			"scope": "entity.name.type.namespace",
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
@@ -337,8 +339,7 @@
 				"punctuation.section.embedded.end.php"
 			],
 			"settings": {
-				"foreground": "#F92672",
-				"fontStyle": "italic"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -508,7 +509,7 @@
 			"name": "Markdown Punctuation Definition Link",
 			"scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
 			"settings": {
-				"foreground": "#f8f8f2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
@@ -556,25 +557,41 @@
 			"name": "Sublime C++ White highlights",
 			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
-			"name": "Sublime C/C++ Pointer and Reference operators",
+			"name": "C/C++ Pointer operators",
 			"scope": [
+				"storage.modifier.pointer",
 				"storage.modifier.pointer.cpp",
-				"storage.modifier.reference.cpp",
+				"storage.modifier.pointer.c",
+				"keyword.operator.dereference",
+				"keyword.operator.pointer",
 				"keyword.operator.dereference.cpp",
-				"keyword.operator.address-of.cpp",
 				"keyword.operator.pointer.cpp",
-				"keyword.operator.reference.cpp",
 				"keyword.operator.dereference.c",
-				"keyword.operator.address-of.c",
-				"keyword.operator.pointer.c",
-				"keyword.operator.reference.c"
+				"keyword.operator.pointer.c"
 			],
 			"settings": {
 				"foreground": "#FD971F"
+			}
+		},
+		{
+			"name": "C/C++ Reference operators",
+			"scope": [
+				"storage.modifier.reference",
+				"storage.modifier.reference.cpp",
+				"storage.modifier.reference.c",
+				"keyword.operator.address-of",
+				"keyword.operator.reference",
+				"keyword.operator.address-of.cpp",
+				"keyword.operator.reference.cpp",
+				"keyword.operator.address-of.c",
+				"keyword.operator.reference.c"
+			],
+			"settings": {
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -616,7 +633,7 @@
 			"name": "Access modifier colon",
 			"scope": "punctuation.separator.colon.access.control.cpp",
 			"settings": {
-				"foreground": "#F8F8F2",
+				"foreground": "#E6E6E3",
 			}
 		},
 		{
@@ -632,19 +649,56 @@
 			"name": "Sublime C White highlights",
 			"scope": "variable.parameter.preprocessor.c, entity.name.function.preprocessor.c, variable.parameter.probably.c, keyword.operator.decrement.c, keyword.operator.increment.c, keyword.operator.assignment.c, keyword.operator.assignment.compound.c, keyword.operator.assignment.compound.bitwise.c, keyword.operator.bitwise.c, keyword.operator.bitwise.shift.c, keyword.operator.logical.c, keyword.operator.ternary.c, keyword.operator.c, keyword.operator.comparison.c, variable.parameter.c",
 			"settings": {
-				"foreground": "#F8F8F2"
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
-			"name": "Sublime C Pointer and Reference operators",
+			"name": "C Pointer operators",
 			"scope": [
+				"storage.modifier.pointer.c",
 				"keyword.operator.dereference.c",
-				"keyword.operator.address-of.c",
-				"keyword.operator.pointer.c",
-				"keyword.operator.reference.c"
+				"keyword.operator.pointer.c"
 			],
 			"settings": {
 				"foreground": "#FD971F"
+			}
+		},
+		{
+			"name": "C Reference operators",
+			"scope": [
+				"storage.modifier.reference.c",
+				"keyword.operator.address-of.c",
+				"keyword.operator.reference.c"
+			],
+			"settings": {
+				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"name": "C Operators",
+			"scope": [
+				"storage.modifier.pointer.c",
+				"keyword.operator.assignment.c",
+				"keyword.operator.assignment.compound.bitwise.c",
+				"keyword.operator.assignment.compound.c",
+				"keyword.operator.bitwise.c",
+				"keyword.operator.bitwise.shift.c",
+				"keyword.operator.c",
+				"keyword.operator.comparison.c",
+				"keyword.operator.decrement.c",
+				"keyword.operator.increment.c",
+				"keyword.operator.logical.c",
+				"keyword.operator.minus-exponent.decimal.c",
+				"keyword.operator.minus-exponent.hexadecimal.c",
+				"keyword.operator.plus-exponent.decimal.c",
+				"keyword.operator.plus-exponent.hexadecimal.c",
+				"keyword.operator.sizeof.c",
+				"keyword.operator.ternary.c",
+				"punctuation.separator.pointer-access.c"
+			],
+			"settings": {
+				// "foreground": "#66D9EF"
+				"foreground": "#F92672"
 			}
 		},
 		{
