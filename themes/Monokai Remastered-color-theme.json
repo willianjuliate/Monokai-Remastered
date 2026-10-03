@@ -308,7 +308,7 @@
 			"name": "Sublime C# Function Invocation",
 			"scope": "entity.name.function.invocation.cs",
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -353,7 +353,7 @@
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -555,7 +555,7 @@
 		// Second class C++ support
 		{
 			"name": "Sublime C++ White highlights",
-			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
+			"scope": "entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
 			"settings": {
 				"foreground": "#E6E6E3"
 			}
@@ -602,10 +602,10 @@
 			}
 		},
 		{
-			"name": "Sublime C++ Blue highlights",
-			"scope": "entity.name.function.call.cpp, entity.name.function.member.cpp",
+			"name": "Sublime C++ Function highlights",
+			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.function.call.cpp, entity.name.function.member.cpp",
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#A6E22E"
 			}
 		},
 		{
@@ -698,7 +698,7 @@
 			],
 			"settings": {
 				// "foreground": "#66D9EF"
-				"foreground": "#F92672"
+				"foreground": "#FD971F"
 			}
 		},
 		{
@@ -709,18 +709,18 @@
 			}
 		},
 		{
-			"name": "Sublime C Blue highlights",
+			"name": "Sublime C Function highlights",
 			"scope": "entity.name.function.c, entity.name.function.member.c",
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#A6E22E"
 			}
 		},
 		// Second class Python support
 		{
-			"name": "Sublime Python Blue highlights",
+			"name": "Sublime Python Function highlights",
 			"scope": "meta.function-call.generic.python",
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#A6E22E"
 			}
 		},
 		// Second class PowerShell support
