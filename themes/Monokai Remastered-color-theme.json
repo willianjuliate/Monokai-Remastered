@@ -1,88 +1,89 @@
 {
+	"author": "Willian Juliate",
 	"name": "Monokai Remastered",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#0C0C0C",
+		"editor.background": "#121212",
 		"editor.foreground": "#f8f8f2",
 		"editor.selectionHighlightBackground": "#575b6180",
 		"editor.selectionBackground": "#878b9180",
 		"editor.wordHighlightBackground": "#4a4a7680",
 		"editor.wordHighlightStrongBackground": "#6a6a9680",
-		"editor.lineHighlightBackground": "#1d1d1d",
+		"editor.lineHighlightBackground": "#1a1a1a",
 		"editorLineNumber.activeForeground": "#c2c2bf",
 		"editorCursor.foreground": "#f8f8f0",
 		"editorWhitespace.foreground": "#464741",
-		"editorGroupHeader.tabsBackground": "#0C0C0C",
-		"editorGroup.dropBackground": "#0C0C0C80",
-		"editorHoverWidget.background": "#0C0C0C",
-		"editorHoverWidget.border": "#1d1d1d",
-		"editorSuggestWidget.background": "#0C0C0C",
-		"editorSuggestWidget.border": "#1d1d1d",
+		"editorGroupHeader.tabsBackground": "#121212",
+		"editorGroup.dropBackground": "#12121280",
+		"editorHoverWidget.background": "#121212",
+		"editorHoverWidget.border": "#1a1a1a",
+		"editorSuggestWidget.background": "#121212",
+		"editorSuggestWidget.border": "#1a1a1a",
 		"editorSuggestWidget.highlightForeground": "#cccccc",
-		"editorSuggestWidget.selectedBackground": "#1d1d1d",
+		"editorSuggestWidget.selectedBackground": "#1a1a1a",
 		"editorSuggestWidget.focusHighlightForeground": "#F92672",
 		"editorGroup.border": "#34352f",
 		"editorLineNumber.foreground": "#90908a",
-		"quickInputList.focusBackground": "#0C0C0C",
-		"dropdown.background": "#0C0C0C",
-		"dropdown.listBackground": "#0C0C0C",
-		"list.activeSelectionBackground": "#1d1d1d",
-		"list.inactiveSelectionBackground": "#0C0C0C",
-		"list.hoverBackground": "#1d1d1d",
-		"list.dropBackground": "#0C0C0C",
+		"quickInputList.focusBackground": "#121212",
+		"dropdown.background": "#121212",
+		"dropdown.listBackground": "#121212",
+		"list.activeSelectionBackground": "#1a1a1a",
+		"list.inactiveSelectionBackground": "#121212",
+		"list.hoverBackground": "#1a1a1a",
+		"list.dropBackground": "#121212",
 		"list.highlightForeground": "#f8f8f2",
-		"selection.background": "#1d1d1d",
-		"button.background": "#1d1d1d",
+		"selection.background": "#1a1a1a",
+		"button.background": "#1a1a1a",
 		"minimap.selectionHighlight": "#878b9180",
-		"tab.inactiveBackground": "#131313",
-		"tab.border": "#0C0C0C",
+		"tab.inactiveBackground": "#171717",
+		"tab.border": "#121212",
 		"tab.inactiveForeground": "#888888",
-		"tab.lastPinnedBorder": "#0C0C0C",
+		"tab.lastPinnedBorder": "#121212",
 		"widget.shadow": "#00000098",
-		"progressBar.background": "#1d1d1d",
-		"badge.background": "#1d1d1d",
+		"progressBar.background": "#1a1a1a",
+		"badge.background": "#1a1a1a",
 		"badge.foreground": "#f8f8f2",
 		"panelTitle.activeForeground": "#f8f8f2",
-		"panelTitle.activeBorder": "#1d1d1d",
-		"panelTitle.inactiveForeground": "#1d1d1d",
-		"panel.border": "#1d1d1d",
-		"settings.focusedRowBackground": "#0C0C0C5A",
-		"titleBar.activeBackground": "#0C0C0C",
-		"titleBar.inactiveBackground": "#0C0C0C",
-		"statusBar.background": "#0C0C0C",
-		"statusBar.border": "#1d1d1d",
-		"statusBar.noFolderBackground": "#0C0C0C",
+		"panelTitle.activeBorder": "#1a1a1a",
+		"panelTitle.inactiveForeground": "#1a1a1a",
+		"panel.border": "#1a1a1a",
+		"settings.focusedRowBackground": "#1212125A",
+		"titleBar.activeBackground": "#121212",
+		"titleBar.inactiveBackground": "#121212",
+		"statusBar.background": "#121212",
+		"statusBar.border": "#1a1a1a",
+		"statusBar.noFolderBackground": "#121212",
 		"statusBar.debuggingBackground": "#F92672",
 		"statusBarItem.remoteBackground": "#AC6218",
 		"ports.iconRunningProcessForeground": "#ccccc7",
-		"activityBar.background": "#0C0C0C",
+		"activityBar.background": "#121212",
 		"activityBar.foreground": "#f8f8f2",
-		"sideBar.background": "#0C0C0C",
-		"sideBar.border": "#1d1d1d",
-		"sideBarSectionHeader.background": "#0C0C0C",
-		"menu.background": "#0C0C0C",
+		"sideBar.background": "#121212",
+		"sideBar.border": "#1a1a1a",
+		"sideBarSectionHeader.background": "#121212",
+		"menu.background": "#121212",
 		"menu.foreground": "#cccccc",
-		"pickerGroup.foreground": "#1d1d1d",
-		"inputOption.activeBorder": "#1d1d1d",
-		"focusBorder": "#1d1d1d",
-		"editorWidget.background": "#0C0C0C",
-		"debugToolBar.background": "#0C0C0C",
+		"pickerGroup.foreground": "#1a1a1a",
+		"inputOption.activeBorder": "#1a1a1a",
+		"focusBorder": "#1a1a1a",
+		"editorWidget.background": "#121212",
+		"debugToolBar.background": "#121212",
 		"diffEditor.insertedTextBackground": "#4b661680",
 		"diffEditor.removedTextBackground": "#90274A70",
-		"input.background": "#0C0C0C",
+		"input.background": "#121212",
 		"inputValidation.errorBackground": "#90274A",
 		"inputValidation.errorBorder": "#f92672",
 		"inputValidation.warningBackground": "#848528",
 		"inputValidation.warningBorder": "#e2e22e",
 		"inputValidation.infoBackground": "#546190",
 		"inputValidation.infoBorder": "#819aff",
-		"peekView.border": "#1d1d1d",
-		"peekViewEditor.background": "#0C0C0C",
-		"peekViewResult.background": "#0C0C0C",
-		"peekViewTitle.background": "#0C0C0C",
-		"peekViewResult.selectionBackground": "#0C0C0C",
-		"peekViewResult.matchHighlightBackground": "#1d1d1d",
-		"peekViewEditor.matchHighlightBackground": "#1d1d1d",
+		"peekView.border": "#1a1a1a",
+		"peekViewEditor.background": "#121212",
+		"peekViewResult.background": "#121212",
+		"peekViewTitle.background": "#121212",
+		"peekViewResult.selectionBackground": "#121212",
+		"peekViewResult.matchHighlightBackground": "#1a1a1a",
+		"peekViewEditor.matchHighlightBackground": "#1a1a1a",
 		"terminal.ansiBlack": "#333333",
 		"terminal.ansiRed": "#C4265E",
 		"terminal.ansiGreen": "#86B42B",
@@ -113,6 +114,18 @@
 			],
 			"settings": {
 				"foreground": "#F8F8F2"
+			}
+		},
+		{
+			"scope": "keyword.control.return",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "entity.name.function",
+			"settings": {
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -315,6 +328,17 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"foreground": "#A6E22E"
+			}
+		},
+		{
+			"name": "PHP Delimiters Subtle",
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
+			],
+			"settings": {
+				"foreground": "#F92672",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -530,9 +554,27 @@
 		// Second class C++ support
 		{
 			"name": "Sublime C++ White highlights",
-			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, storage.modifier.pointer.cpp, storage.modifier.reference.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
+			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
 			"settings": {
 				"foreground": "#F8F8F2"
+			}
+		},
+		{
+			"name": "Sublime C/C++ Pointer and Reference operators",
+			"scope": [
+				"storage.modifier.pointer.cpp",
+				"storage.modifier.reference.cpp",
+				"keyword.operator.dereference.cpp",
+				"keyword.operator.address-of.cpp",
+				"keyword.operator.pointer.cpp",
+				"keyword.operator.reference.cpp",
+				"keyword.operator.dereference.c",
+				"keyword.operator.address-of.c",
+				"keyword.operator.pointer.c",
+				"keyword.operator.reference.c"
+			],
+			"settings": {
+				"foreground": "#FD971F"
 			}
 		},
 		{
@@ -591,6 +633,18 @@
 			"scope": "variable.parameter.preprocessor.c, entity.name.function.preprocessor.c, variable.parameter.probably.c, keyword.operator.decrement.c, keyword.operator.increment.c, keyword.operator.assignment.c, keyword.operator.assignment.compound.c, keyword.operator.assignment.compound.bitwise.c, keyword.operator.bitwise.c, keyword.operator.bitwise.shift.c, keyword.operator.logical.c, keyword.operator.ternary.c, keyword.operator.c, keyword.operator.comparison.c, variable.parameter.c",
 			"settings": {
 				"foreground": "#F8F8F2"
+			}
+		},
+		{
+			"name": "Sublime C Pointer and Reference operators",
+			"scope": [
+				"keyword.operator.dereference.c",
+				"keyword.operator.address-of.c",
+				"keyword.operator.pointer.c",
+				"keyword.operator.reference.c"
+			],
+			"settings": {
+				"foreground": "#FD971F"
 			}
 		},
 		{
