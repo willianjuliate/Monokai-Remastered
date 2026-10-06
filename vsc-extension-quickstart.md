@@ -1,22 +1,22 @@
-# Noir Ivory — VS Code Theme Quickstart
+# Monokai Remastered Dark & Light — VS Code Theme Quickstart
 
 Welcome to your custom theme extension. This project includes both variants of the theme:
 
-- `Noir` — dark mode
-- `Ivory` — light mode
+- `Monokai Remastered Dark` — dark mode
+- `Monokai Remastered Light` — light mode
 
 ## Project structure
 
 * `package.json` — theme manifest and extension metadata
-* `themes/Noir-color-theme.json` — dark theme definition
-* `themes/Ivory-color-theme.json` — light theme definition
+* `themes/Monokai-Remastered-Dark-color-theme.json` — dark theme definition
+* `themes/Monokai-Remastered-Light-color-theme.json` — light theme definition
 
 ## Run the theme locally
 
 1. Open this folder in VS Code.
 2. Press `F5` to launch the Extension Development Host.
 3. Open the Command Palette and run `Preferences: Color Theme`.
-4. Select `Noir` or `Ivory`.
+4. Select `Monokai Remastered Dark` or `Monokai Remastered Light`.
 
 ## Inspect tokens and scopes
 
@@ -38,7 +38,7 @@ If you want to refine the visual identity:
 
 ## Theme conventions
 
-Noir Ivory follows a standard VS Code theme structure using TextMate scopes. Colors are assigned by token categories such as:
+Monokai Remastered Dark & Light follows a standard VS Code theme structure using TextMate scopes. Colors are assigned by token categories such as:
 
 - comments
 - strings

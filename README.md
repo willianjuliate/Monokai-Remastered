@@ -1,13 +1,13 @@
-# Noir Ivory
+# Monokai Remastered Dark & Light
 
 A premium VS Code theme crafted for developers who want clarity, contrast, and elegance in every line of code.
 
-Noir Ivory brings together a dark, cinematic palette and a refined light variant, designed for long coding sessions without visual fatigue.
+Monokai Remastered Dark & Light brings together a dark, cinematic palette and a refined light variant, designed for long coding sessions without visual fatigue.
 
 ## Theme variants
 
-- Noir — deep black surfaces, vibrant accents, built for focus and contrast
-- Ivory — soft neutral backgrounds, crisp text, made for clean daytime work
+- Monokai Remastered Dark — deep black surfaces, vibrant accents, built for focus and contrast
+- Monokai Remastered Light — soft neutral backgrounds, crisp text, made for clean daytime work
 
 ## Why developers choose it
 
@@ -18,7 +18,7 @@ Noir Ivory brings together a dark, cinematic palette and a refined light variant
 
 ## Preview
 
-### Noir
+### Monokai Remastered Dark
 
 - Background: `#0C0C0C`
 - Foreground: `#E6E6E3`
@@ -26,7 +26,7 @@ Noir Ivory brings together a dark, cinematic palette and a refined light variant
 - String: `#5DC863`
 - Keyword/constant: `#E6DB74`
 
-### Ivory
+### Monokai Remastered Light
 
 - Background: `#E8E8E2`
 - Foreground: `#383830`
@@ -60,13 +60,13 @@ vsce package
 ### Install locally
 
 ```bash
-code --install-extension .\noir-ivory-theme-0.0.1.vsix
+code --install-extension .\monokai-remastered-0.0.2.vsix
 ```
 
 ## Available themes
 
-- `Noir`
-- `Ivory`
+- `Monokai Remastered Dark`
+- `Monokai Remastered Light`
 
 ## License
 

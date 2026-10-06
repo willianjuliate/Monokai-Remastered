@@ -1,10 +1,10 @@
 {
-  "name": "noir-ivory-theme",
-  "displayName": "Noir Ivory",
-  "description": "Noir Ivory combina um contraste profundo com uma versão clara e elegante.",
+  "name": "monokai-remastered",
+  "displayName": "Monokai Remastered",
+  "description": "A refined Monokai-inspired theme with deep contrast, vibrant accents, and a clean light variant for focused coding.",
   "version": "0.0.2",
   "publisher": "Willian Juliate",
-  "icon": "noir_ivory.png",
+  "icon": "monokai-remastered.png",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -14,14 +14,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Noir",
+        "label": "Monokai Remastered Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Noir-color-theme.json"
+        "path": "./themes/Monokai-Remastered-Dark-color-theme.json"
       },
       {
-        "label": "Ivory",
+        "label": "Monokai Remastered Light",
         "uiTheme": "vs",
-        "path": "./themes/Ivory-color-theme.json"
+        "path": "./themes/Monokai-Remastered-Light-color-theme.json"
       }
     ]
   }
