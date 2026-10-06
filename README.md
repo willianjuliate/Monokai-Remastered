@@ -49,19 +49,6 @@ For the best experience, pair it with a modern monospace font such as:
 - [JetBrains Mono](https://www.jetbrains.com/pt-br/language-mono/)
 - [Fira Code](https://github.com/tonsky/FiraCode)
 
-## Installation
-
-### Package the extension
-
-```bash
-vsce package
-```
-
-### Install locally
-
-```bash
-code --install-extension .\monokai-remastered-0.0.2.vsix
-```
 
 ## Available themes
 

@@ -52,15 +52,6 @@ For more information, see the official guide:
 
 - [VS Code Color Theme documentation](https://code.visualstudio.com/api/extension-guides/color-theme)
 
-## Install the extension
-
-To install the packaged extension locally:
-
-```bash
-code --install-extension .\noir-ivory-theme-0.0.1.vsix
-```
-
-Or copy the `.vsix` to your VS Code extensions folder manually, then restart the editor.
 
 ## Publish
 
