@@ -1,0 +1,749 @@
+{
+	"author": "Willian Juliate",
+	"name": "Monokai Remastered Light",
+	"type": "light",
+	"colors": {
+		"editor.background": "#E8E8E2",
+		"editor.foreground": "#383830",
+		"editor.selectionHighlightBackground": "#A6A6A080",
+		"editor.selectionBackground": "#777B7355",
+		"editor.wordHighlightBackground": "#8B82A040",
+		"editor.wordHighlightStrongBackground": "#8B82A060",
+		"editor.lineHighlightBackground": "#D6D6CF",
+		"editorLineNumber.activeForeground": "#55554E",
+		"editorCursor.foreground": "#383830",
+		"editorWhitespace.foreground": "#464741",
+		"editorGroupHeader.tabsBackground": "#E8E8E2",
+		"editorGroup.dropBackground": "#E8E8E280",
+		"editorHoverWidget.background": "#E8E8E2",
+		"editorHoverWidget.border": "#D6D6CF",
+		"editorSuggestWidget.background": "#E8E8E2",
+		"editorSuggestWidget.border": "#D6D6CF",
+		"editorSuggestWidget.highlightForeground": "#45453F",
+		"editorSuggestWidget.selectedBackground": "#D6D6CF",
+		"editorSuggestWidget.focusHighlightForeground": "#C2185B",
+		"editorGroup.border": "#C4C4BB",
+		"editorLineNumber.foreground": "#73736B",
+		"quickInputList.focusBackground": "#E8E8E2",
+		"dropdown.background": "#E8E8E2",
+		"dropdown.listBackground": "#E8E8E2",
+		"list.activeSelectionBackground": "#D6D6CF",
+		"list.activeSelectionForeground": "#000000",
+		"list.inactiveSelectionBackground": "#E8E8E2",
+		"list.inactiveSelectionForeground": "#000000",
+		"list.hoverBackground": "#D6D6CF",
+		"list.dropBackground": "#E8E8E2",
+		"list.highlightForeground": "#383830",
+		"selection.background": "#D6D6CF",
+		"button.background": "#D6D6CF",
+		"minimap.selectionHighlight": "#777B7355",
+		"tab.inactiveBackground": "#DEDED7",
+		"tab.border": "#E8E8E2",
+		"tab.inactiveForeground": "#77776F",
+		"tab.unfocusedInactiveForeground": "#77776F",
+		"tab.unfocusedActiveForeground": "#383830",
+		"tab.lastPinnedBorder": "#E8E8E2",
+		"widget.shadow": "#00000024",
+		"progressBar.background": "#D6D6CF",
+		"badge.background": "#D6D6CF",
+		"badge.foreground": "#383830",
+		"panel.border": "#D6D6CF",
+		"settings.focusedRowBackground": "#E8E8E25A",
+		"titleBar.activeBackground": "#E8E8E2",
+		"titleBar.inactiveBackground": "#E8E8E2",
+		"statusBar.background": "#E8E8E2",
+		"statusBar.border": "#D6D6CF",
+		"statusBar.noFolderBackground": "#E8E8E2",
+		"statusBar.debuggingBackground": "#F92672",
+		"statusBarItem.remoteBackground": "#8A4E12",
+		"ports.iconRunningProcessForeground": "#55554E",
+		"activityBar.background": "#E8E8E2",
+		"activityBar.foreground": "#383830",
+		"sideBar.background": "#E8E8E2",
+		"sideBar.border": "#D6D6CF",
+		"sideBarSectionHeader.background": "#E8E8E2",
+		"menu.background": "#E8E8E2",
+		"menu.foreground": "#45453F",
+		"pickerGroup.foreground": "#6C6B64",
+		"inputOption.activeBorder": "#6C6B64",
+		"focusBorder": "#6C6B64",
+		"editorWidget.background": "#E8E8E2",
+		"debugToolBar.background": "#E8E8E2",
+		"diffEditor.insertedTextBackground": "#739B4630",
+		"diffEditor.removedTextBackground": "#C4265E30",
+		"input.background": "#E8E8E2",
+		"inputValidation.errorBackground": "#F4DDE5",
+		"inputValidation.errorBorder": "#C2185B",
+		"inputValidation.warningBackground": "#F0EDCC",
+		"inputValidation.warningBorder": "#716500",
+		"inputValidation.infoBackground": "#DCE3F4",
+		"inputValidation.infoBorder": "#3F59A8",
+		"peekView.border": "#D6D6CF",
+		"peekViewEditor.background": "#E8E8E2",
+		"peekViewResult.background": "#E8E8E2",
+		"peekViewTitle.background": "#E8E8E2",
+		"peekViewResult.selectionBackground": "#E8E8E2",
+		"peekViewResult.matchHighlightBackground": "#D6D6CF",
+		"peekViewEditor.matchHighlightBackground": "#D6D6CF",
+		"terminal.background": "#E8E8E2",
+		"terminal.foreground": "#383830",
+		"terminalCursor.foreground": "#383830",
+		"terminal.selectionBackground": "#C7C7BF",
+		"terminal.inactiveSelectionBackground": "#D8D8D0",
+		"terminal.ansiBlack": "#333333",
+		"terminal.ansiRed": "#AD1457",
+		"terminal.ansiGreen": "#476C00",
+		"terminal.ansiYellow": "#766000",
+		"terminal.ansiBlue": "#4059A8",
+		"terminal.ansiMagenta": "#7041B8",
+		"terminal.ansiCyan": "#006D82",
+		"terminal.ansiWhite": "#FFFFFF",
+		"terminal.ansiBrightBlack": "#666666",
+		"terminal.ansiBrightRed": "#C2185B",
+		"terminal.ansiBrightGreen": "#476C00",
+		"terminal.ansiBrightYellow": "#716500",
+		"terminal.ansiBrightBlue": "#3F59A8",
+		"terminal.ansiBrightMagenta": "#7041B8",
+		"terminal.ansiBrightCyan": "#006D82",
+		"terminal.ansiBrightWhite": "#FFFFFF"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"scope": "keyword.control.return",
+			"settings": {}
+		},
+		{
+			"scope": "entity.name.function",
+			"settings": {}
+		},
+		{
+			"name": "PHP Variable Dollar Sign",
+			"scope": "punctuation.definition.variable.php",
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "PHP Constants - Built-in",
+			"scope": [
+				"support.constant.core.php",
+				"support.constant.std.php",
+				"constant.language.php"
+			],
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#696861"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "#766000"
+			}
+		},
+		{
+			"name": "Template Definition",
+			"scope": [
+				"punctuation.definition.template-expression",
+				"punctuation.section.embedded",
+				"punctuation.definition.tag",
+				"punctuation.definition.tag.begin",
+				"punctuation.definition.tag.end"
+			],
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Reset JavaScript string interpolation expression",
+			"scope": [
+				"meta.template.expression"
+			],
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"name": "Number",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "Sublime C# numeric suffix",
+			"scope": "constant.numeric.other.suffix, keyword.other.unit",
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "Built-in constant",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "User-defined constant",
+			"scope": "constant.character, constant.other",
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "Variable",
+			"scope": "variable",
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"name": "Sublime C# Enum Variable",
+			"scope": "entity.name.variable.enum-member",
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "Keyword",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#C2185B",
+			}
+		},
+		{
+			"name": "Sublime C#  keywords",
+			"scope": "keyword.other.var.cs, keyword.other.namespace, keyword.operator.arrow, keyword.other.class, keyword.other.enum, keyword.type, keyword.other.get, keyword.other.set",
+			"settings": {
+				"foreground": "#006D82",
+			}
+		},
+		{
+			"name": "Sublime C# null coalescing",
+			"scope": "keyword.operator.null-conditional.cs",
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"name": "Storage",
+			"scope": "storage",
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Storage type",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Sublime C# namespace",
+			"scope": "entity.name.type.namespace",
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"name": "Sublime C# namespace declaration",
+			"scope": "entity.name.type.namespace.declaration",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Sublime C# template type parameter",
+			"scope": "entity.name.type.type-parameter",
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "Class name",
+			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Inherited class",
+			"scope": "entity.other.inherited-class",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Sublime C# Function Invocation",
+			"scope": "entity.name.function.invocation.cs",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Function argument",
+			"scope": "variable.parameter, entity.name.variable.parameter",
+			"settings": {
+				"foreground": "#A54A00"
+			}
+		},
+		{
+			"name": "Tag name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Tag attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "PHP Delimiters Subtle",
+			"scope": [
+				"punctuation.section.embedded.begin.php",
+				"punctuation.section.embedded.end.php"
+			],
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Sublime C# attribute squarebrackets",
+			"scope": "punctuation.squarebracket.attribute",
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": "support.type, support.class",
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {}
+		},
+		{
+			"name": "JSON String",
+			"scope": "meta.structure.dictionary.json string.quoted.double.json",
+			"settings": {
+				"foreground": "#56564F"
+			}
+		},
+		{
+			"name": "diff.header",
+			"scope": "meta.diff, meta.diff.header",
+			"settings": {
+				"foreground": "#75715E"
+			}
+		},
+		{
+			"name": "diff.deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "diff.inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "diff.changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#766000"
+			}
+		},
+		{
+			"scope": "constant.numeric.line-number.find-in-files - match",
+			"settings": {
+				"foreground": "#7041B8A0"
+			}
+		},
+		{
+			"scope": "entity.name.filename.find-in-files",
+			"settings": {
+				"foreground": "#766000"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Markup Lists",
+			"scope": "markup.list",
+			"settings": {
+				"foreground": "#766000"
+			}
+		},
+		{
+			"name": "Markup Styling",
+			"scope": "markup.bold, markup.",
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#A54A00"
+			}
+		},
+		{
+			"name": "Markup Headings",
+			"scope": "markup.heading",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Markup Setext Header",
+			"scope": "markup.heading.setext",
+			"settings": {
+				"foreground": "#476C00",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup Headings",
+			"scope": "markup.heading.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Quote",
+			"scope": "markup.quote.markdown",
+			"settings": {
+				"foreground": "#75715E"
+			}
+		},
+		{
+			"name": "Markdown Bold",
+			"scope": "markup.bold.markdown",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markdown Link Title/Description",
+			"scope": "string.other.link.title.markdown,string.other.link.description.markdown",
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "Markdown Underline Link/Image",
+			"scope": "markup.underline.link.markdown,markup.underline.link.image.markdown",
+			"settings": {
+				"foreground": "#766000"
+			}
+		},
+		{
+			"name": "Markdown Emphasis",
+			"scope": "markup..markdown",
+			"settings": {}
+		},
+		{
+			"name": "Markdown Punctuation Definition Link",
+			"scope": "markup.list.unnumbered.markdown, markup.list.numbered.markdown",
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"name": "Markdown List Punctuation",
+			"scope": [
+				"punctuation.definition.list.begin.markdown"
+			],
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"scope": "token.info-token",
+			"settings": {
+				"foreground": "#3D5DAD"
+			}
+		},
+		{
+			"scope": "token.warn-token",
+			"settings": {
+				"foreground": "#8A5B00"
+			}
+		},
+		{
+			"scope": "token.error-token",
+			"settings": {
+				"foreground": "#C62828"
+			}
+		},
+		{
+			"scope": "token.debug-token",
+			"settings": {
+				"foreground": "#7540A5"
+			}
+		},
+		{
+			"name": "this.self",
+			"scope": "variable.language, keyword.other.this, keyword.other.base, keyword.other.value",
+			"settings": {
+				"foreground": "#A54A00"
+			}
+		},
+		// Second class C++ support
+		{
+			"name": "Sublime C++ White highlights",
+			"scope": "entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"name": "C/C++ Pointer operators",
+			"scope": [
+				"storage.modifier.pointer",
+				"storage.modifier.pointer.cpp",
+				"storage.modifier.pointer.c",
+				"keyword.operator.dereference",
+				"keyword.operator.pointer",
+				"keyword.operator.dereference.cpp",
+				"keyword.operator.pointer.cpp",
+				"keyword.operator.dereference.c",
+				"keyword.operator.pointer.c"
+			],
+			"settings": {
+				"foreground": "#A54A00"
+			}
+		},
+		{
+			"name": "C/C++ Reference operators",
+			"scope": [
+				"storage.modifier.reference",
+				"storage.modifier.reference.cpp",
+				"storage.modifier.reference.c",
+				"keyword.operator.address-of",
+				"keyword.operator.reference",
+				"keyword.operator.address-of.cpp",
+				"keyword.operator.reference.cpp",
+				"keyword.operator.address-of.c",
+				"keyword.operator.reference.c"
+			],
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "Sublime C++ Non numeric suffix",
+			"scope": "keyword.other.unit.suffix.integer.cpp, keyword.other.unit.suffix.floating-point.cpp",
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "Sublime C++ Function highlights",
+			"scope": "entity.name.scope-resolution.function.call.cpp, entity.name.function.call.cpp, entity.name.function.member.cpp",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Namespace name",
+			"scope": "entity.name.namespace.cpp",
+			"settings": {
+				"foreground": "#476C00",
+			}
+		},
+		{
+			"name": "Namespace keyword",
+			"scope": "storage.type.namespace.definition.cpp",
+			"settings": {
+				"foreground": "#C2185B",
+			}
+		},
+		{
+			"name": "Access modifier keyword",
+			"scope": "storage.type.modifier.access",
+			"settings": {
+				"foreground": "#C2185B",
+			}
+		},
+		{
+			"name": "Access modifier colon",
+			"scope": "punctuation.separator.colon.access.control.cpp",
+			"settings": {
+				"foreground": "#383830",
+			}
+		},
+		{
+			// Not perfect, but the best we can do without updating C++ language support
+			"name": "Inherited class",
+			"scope": "meta.qualified_type.cpp, entity.name.type.cpp",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		// Second class C support
+		{
+			"name": "Sublime C White highlights",
+			"scope": "variable.parameter.preprocessor.c, entity.name.function.preprocessor.c, variable.parameter.probably.c, keyword.operator.decrement.c, keyword.operator.increment.c, keyword.operator.assignment.c, keyword.operator.assignment.compound.c, keyword.operator.assignment.compound.bitwise.c, keyword.operator.bitwise.c, keyword.operator.bitwise.shift.c, keyword.operator.logical.c, keyword.operator.ternary.c, keyword.operator.c, keyword.operator.comparison.c, variable.parameter.c",
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"name": "C Pointer operators",
+			"scope": [
+				"storage.modifier.pointer.c",
+				"keyword.operator.dereference.c",
+				"keyword.operator.pointer.c"
+			],
+			"settings": {
+				"foreground": "#A54A00"
+			}
+		},
+		{
+			"name": "C Reference operators",
+			"scope": [
+				"storage.modifier.reference.c",
+				"keyword.operator.address-of.c",
+				"keyword.operator.reference.c"
+			],
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "C Operators",
+			"scope": [
+				"storage.modifier.pointer.c",
+				"keyword.operator.assignment.c",
+				"keyword.operator.assignment.compound.bitwise.c",
+				"keyword.operator.assignment.compound.c",
+				"keyword.operator.bitwise.c",
+				"keyword.operator.bitwise.shift.c",
+				"keyword.operator.c",
+				"keyword.operator.comparison.c",
+				"keyword.operator.decrement.c",
+				"keyword.operator.increment.c",
+				"keyword.operator.logical.c",
+				"keyword.operator.minus-exponent.decimal.c",
+				"keyword.operator.minus-exponent.hexadecimal.c",
+				"keyword.operator.plus-exponent.decimal.c",
+				"keyword.operator.plus-exponent.hexadecimal.c",
+				"keyword.operator.sizeof.c",
+				"keyword.operator.ternary.c",
+				"punctuation.separator.pointer-access.c"
+			],
+			"settings": {
+				// "foreground": "#006D82"
+				"foreground": "#A54A00"
+			}
+		},
+		{
+			"name": "Sublime C Non numeric suffix",
+			"scope": "keyword.other.unit.suffix.integer.c, keyword.other.unit.suffix.floating-point.c",
+			"settings": {
+				"foreground": "#7041B8",
+			}
+		},
+		{
+			"name": "Sublime C Function highlights",
+			"scope": "entity.name.function.c, entity.name.function.member.c",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		// Second class Python support
+		{
+			"name": "Sublime Python Function highlights",
+			"scope": "meta.function-call.generic.python",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		// Second class PowerShell support
+		{
+			"name": "Sublime PowerShell Red $",
+			"scope": "punctuation.definition.variable.powershell",
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Sublime PowerShell Green member calls",
+			"scope": "variable.other.member.powershell",
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Sublime PowerShell Blue automatic _ variable",
+			"scope": "support.variable.automatic.powershell",
+			"settings": {
+				"foreground": "#006D82"
+			}
+		}
+	],
+	"semanticHighlighting": false
+}

@@ -17,6 +17,11 @@
         "label": "Monokai Remastered",
         "uiTheme": "vs-dark",
         "path": "./themes/Monokai Remastered-color-theme.json"
+      },
+      {
+        "label": "Monokai Remastered Light",
+        "uiTheme": "vs",
+        "path": "./themes/Monokai Remastered Light-color-theme.json"
       }
     ]
   }
