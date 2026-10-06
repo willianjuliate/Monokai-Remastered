@@ -1,29 +1,77 @@
-# 🎨 Monokai Remastered
+# Noir Ivory
 
-**Monokai Remastered** é uma releitura moderna do clássico e lendário tema Monokai.  
-Mantém o contraste vibrante, as cores expressivas e a legibilidade impecável — mas com ajustes sutis de tom e saturação para uma experiência visual mais suave e elegante.
+A premium VS Code theme crafted for developers who want clarity, contrast, and elegance in every line of code.
 
----
+Noir Ivory brings together a dark, cinematic palette and a refined light variant, designed for long coding sessions without visual fatigue.
 
-## ✨ Destaques
+## Theme variants
 
-- 🎯 **Base clássica do Monokai**, com fidelidade às cores originais  
-- 🧠 **Cores refinadas e equilibradas** para longas sessões de código  
-- 💡 **Fonte sugerida:** [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)  
-- 🖥️ **Compatível com linguagens modernas:** C#, Python, JavaScript, Rust, Go, etc.  
-- 🌙 **Fundo personalizado:** `#0C0C0C` — escuro, puro e sem reflexos  
+- Noir — deep black surfaces, vibrant accents, built for focus and contrast
+- Ivory — soft neutral backgrounds, crisp text, made for clean daytime work
 
-### 🎨 Paleta principal
+## Why developers choose it
 
-| Elemento | Cor | Descrição |
-|-----------|------|-----------|
-| **Accent / Keywords** | `#F92672` | Rosa vibrante clássico do Monokai |
-| **Strings / Highlights** | `#5DC863` | Verde suave para realce visual |
-| **Variables / Constants** | `#E6DB74` | Amarelo quente para contraste |
-| **Background** | `#0C0C0C` | Preto absoluto, sem brilho |
+- High contrast for readability and syntax clarity
+- Balanced accents that stand out without overwhelming the editor
+- Designed for modern languages and long work sessions
+- Clean visual identity for both dark and light workflows
 
---
+## Preview
 
-## Install
- - vsce package
- - code --install-extension .\monokai-remastered-0.0.1.vsix
+### Noir
+
+- Background: `#0C0C0C`
+- Foreground: `#E6E6E3`
+- Accent: `#F92672`
+- String: `#5DC863`
+- Keyword/constant: `#E6DB74`
+
+### Ivory
+
+- Background: `#E8E8E2`
+- Foreground: `#383830`
+- Accent: `#C2185B`
+- String: `#476C00`
+- Keyword/constant: `#716500`
+
+## Features
+
+- Optimized for code readability in VS Code
+- Crisp editor surfaces, sidebars, tabs, and terminal styling
+- Consistent color rhythm across dark and light themes
+- Suitable for JavaScript, TypeScript, Python, Go, Rust, C#, Java, and more
+
+## Recommended setup
+
+For the best experience, pair it with a modern monospace font such as:
+
+- [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)
+- [JetBrains Mono](https://www.jetbrains.com/pt-br/language-mono/)
+- [Fira Code](https://github.com/tonsky/FiraCode)
+
+## Installation
+
+### Package the extension
+
+```bash
+vsce package
+```
+
+### Install locally
+
+```bash
+code --install-extension .\noir-ivory-theme-0.0.1.vsix
+```
+
+## Available themes
+
+- `Noir`
+- `Ivory`
+
+## License
+
+This project is distributed under the MIT license.
+
+## Author
+
+Built by Willian Juliate.

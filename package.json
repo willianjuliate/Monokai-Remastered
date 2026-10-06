@@ -1,10 +1,10 @@
 {
-  "name": "monokai-remastered",
-  "displayName": "Monokai Remastered",
-  "description": "Monokai Remastered é uma releitura moderna do clássico Monokai.",
-  "version": "0.0.1",
+  "name": "noir-ivory-theme",
+  "displayName": "Noir Ivory",
+  "description": "Noir Ivory combina um contraste profundo com uma versão clara e elegante.",
+  "version": "0.0.2",
   "publisher": "Willian Juliate",
-  "icon": "mr.png",
+  "icon": "noir_ivory.png",
   "engines": {
     "vscode": "^1.105.0"
   },
@@ -14,14 +14,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Monokai Remastered",
+        "label": "Noir",
         "uiTheme": "vs-dark",
-        "path": "./themes/Monokai Remastered-color-theme.json"
+        "path": "./themes/Noir-color-theme.json"
       },
       {
-        "label": "Monokai Remastered Light",
+        "label": "Ivory",
         "uiTheme": "vs",
-        "path": "./themes/Monokai Remastered Light-color-theme.json"
+        "path": "./themes/Ivory-color-theme.json"
       }
     ]
   }

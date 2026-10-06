@@ -1,28 +1,69 @@
-# Welcome to your VS Code Extension
+# Noir Ivory — VS Code Theme Quickstart
 
-## What's in the folder
+Welcome to your custom theme extension. This project includes both variants of the theme:
 
-* This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Monokai Remastered-color-theme.json` - the color theme definition file.
+- `Noir` — dark mode
+- `Ivory` — light mode
 
-## Get up and running straight away
+## Project structure
 
-* Press `F5` to open a new window with your extension loaded.
-* Open the color theme picker with  the `File > Preferences > Theme > Color Theme` menu item, or use the `Preferences: Color Theme command (Ctrl+K Ctrl+T)` and pick your theme
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+* `package.json` — theme manifest and extension metadata
+* `themes/Noir-color-theme.json` — dark theme definition
+* `themes/Ivory-color-theme.json` — light theme definition
 
-## Make changes
+## Run the theme locally
 
-* Changes to the theme file are automatically applied to the Extension Development Host window.
+1. Open this folder in VS Code.
+2. Press `F5` to launch the Extension Development Host.
+3. Open the Command Palette and run `Preferences: Color Theme`.
+4. Select `Noir` or `Ivory`.
 
-## Adopt your theme to Visual Studio Code
+## Inspect tokens and scopes
 
-* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+To understand how colors are applied to syntax, open any file and run:
 
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+- `Developer: Inspect Editor Tokens and Scopes`
 
-## Install your extension
+This is useful when refining semantic colors for keywords, strings, comments, and functions.
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/api/working-with-extensions/publishing-extension about publishing an extension.
+## Edit the theme
+
+Changes to the theme JSON files are applied automatically in the Extension Development Host window.
+
+If you want to refine the visual identity:
+
+- adjust `colors` for editor UI surfaces
+- adjust `tokenColors` for syntax highlighting
+- keep contrast consistent across both variants
+
+## Theme conventions
+
+Noir Ivory follows a standard VS Code theme structure using TextMate scopes. Colors are assigned by token categories such as:
+
+- comments
+- strings
+- keywords
+- functions
+- variables
+- constants
+- markup
+
+For more information, see the official guide:
+
+- [VS Code Color Theme documentation](https://code.visualstudio.com/api/extension-guides/color-theme)
+
+## Install the extension
+
+To install the packaged extension locally:
+
+```bash
+code --install-extension .\noir-ivory-theme-0.0.1.vsix
+```
+
+Or copy the `.vsix` to your VS Code extensions folder manually, then restart the editor.
+
+## Publish
+
+To share the theme with the world, package it and publish it through the VS Code Marketplace:
+
+- [Publishing extensions](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
