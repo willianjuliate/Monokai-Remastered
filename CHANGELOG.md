@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Added
+- Added dedicated Java syntax highlighting for both the dark and light themes.
+
 ## [0.0.2] - 2026-10-06
 
 ### Changed

@@ -743,6 +743,90 @@
 			"settings": {
 				"foreground": "#006D82"
 			}
+		},
+		{
+			"name": "Java keywords and modifiers",
+			"scope": [
+				"keyword.control.java",
+				"storage.type.java",
+				"storage.modifier.java",
+				"storage.type.modifier.java",
+				"storage.type.annotation.java",
+				"punctuation.definition.annotation.java"
+			],
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Java primitive types",
+			"scope": "storage.type.primitive.java",
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "Java operators",
+			"scope": "keyword.operator.java",
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
+			"name": "Java type names",
+			"scope": [
+				"entity.name.type.java",
+				"entity.name.type.class.java",
+				"entity.name.type.interface.java",
+				"entity.name.type.enum.java",
+				"entity.name.type.annotation.java",
+				"entity.name.type.record.java",
+				"entity.name.type.type-parameter.java",
+				"support.class.java",
+				"support.type.java"
+			],
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Java methods",
+			"scope": [
+				"entity.name.function.java",
+				"entity.name.function.member.java",
+				"entity.name.method.java"
+			],
+			"settings": {
+				"foreground": "#476C00"
+			}
+		},
+		{
+			"name": "Java parameters",
+			"scope": [
+				"variable.parameter.java",
+				"entity.name.variable.parameter.java"
+			],
+			"settings": {
+				"foreground": "#A54A00"
+			}
+		},
+		{
+			"name": "Java constants",
+			"scope": [
+				"constant.language.java",
+				"constant.other.enum.java",
+				"entity.name.constant.java"
+			],
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "Java package names",
+			"scope": "entity.name.package.java",
+			"settings": {
+				"foreground": "#383830"
+			}
 		}
 	],
 	"semanticHighlighting": false
