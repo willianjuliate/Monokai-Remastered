@@ -2,6 +2,9 @@
 	"author": "Willian Juliate",
 	"name": "Monokai Remastered Dark",
 	"type": "dark",
+	"semanticTokenColors": {
+		"class.defaultLibrary": "#AE81FF"
+	},
 	"colors": {
 		"editor.background": "#171717",
 		"editor.foreground": "#E6E6E3",
@@ -746,7 +749,6 @@
 			"name": "Java keywords and modifiers",
 			"scope": [
 				"keyword.control.java",
-				"storage.type.java",
 				"storage.modifier.java",
 				"storage.type.modifier.java",
 				"storage.type.annotation.java",
@@ -754,6 +756,16 @@
 			],
 			"settings": {
 				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Java reference types",
+			"scope": [
+				"source.java storage.type",
+				"storage.type.java"
+			],
+			"settings": {
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -780,11 +792,10 @@
 				"entity.name.type.annotation.java",
 				"entity.name.type.record.java",
 				"entity.name.type.type-parameter.java",
-				"support.class.java",
 				"support.type.java"
 			],
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#66D9EF"
 			}
 		},
 		{

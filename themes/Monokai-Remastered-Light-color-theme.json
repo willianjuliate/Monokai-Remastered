@@ -2,6 +2,9 @@
 	"author": "Willian Juliate",
 	"name": "Monokai Remastered Light",
 	"type": "light",
+	"semanticTokenColors": {
+		"class.defaultLibrary": "#7041B8"
+	},
 	"colors": {
 		"editor.background": "#E8E8E2",
 		"editor.foreground": "#383830",
@@ -748,7 +751,6 @@
 			"name": "Java keywords and modifiers",
 			"scope": [
 				"keyword.control.java",
-				"storage.type.java",
 				"storage.modifier.java",
 				"storage.type.modifier.java",
 				"storage.type.annotation.java",
@@ -756,6 +758,16 @@
 			],
 			"settings": {
 				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "Java reference types",
+			"scope": [
+				"source.java storage.type",
+				"storage.type.java"
+			],
+			"settings": {
+				"foreground": "#006D82"
 			}
 		},
 		{
@@ -782,11 +794,10 @@
 				"entity.name.type.annotation.java",
 				"entity.name.type.record.java",
 				"entity.name.type.type-parameter.java",
-				"support.class.java",
 				"support.type.java"
 			],
 			"settings": {
-				"foreground": "#476C00"
+				"foreground": "#006D82"
 			}
 		},
 		{
