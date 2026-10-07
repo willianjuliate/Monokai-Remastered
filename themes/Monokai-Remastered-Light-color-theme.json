@@ -35,7 +35,7 @@
 		"list.dropBackground": "#E8E8E2",
 		"list.highlightForeground": "#383830",
 		"selection.background": "#D6D6CF",
-		"button.background": "#D6D6CF",
+		"button.background": "#F92672",
 		"minimap.selectionHighlight": "#777B7355",
 		"tab.inactiveBackground": "#DEDED7",
 		"tab.border": "#E8E8E2",
