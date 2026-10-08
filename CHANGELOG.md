@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Fixed
+- Prevented Java's semantic type color from overriding the `var` keyword color.
+
 ### Added
 - Added dedicated Java syntax highlighting for both the dark and light themes.
 

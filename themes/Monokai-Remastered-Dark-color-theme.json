@@ -7,15 +7,12 @@
 		"class.static:java": "#66D9EF",
 		"class.defaultLibrary:java": "#66D9EF",
 		"class.defaultLibrary.static:java": "#66D9EF",
-		"type:java": "#66D9EF",
-		"type.static:java": "#66D9EF",
 		"type.defaultLibrary:java": "#66D9EF",
 		"type.defaultLibrary.static:java": "#66D9EF",
 		"interface:java": "#66D9EF",
 		"interface.static:java": "#66D9EF",
 		"enum:java": "#66D9EF",
-		"enum.static:java": "#66D9EF",
-		"keyword:java": "#F92672"
+		"enum.static:java": "#66D9EF",		
 	},
 	"colors": {
 		"editor.background": "#171717",
