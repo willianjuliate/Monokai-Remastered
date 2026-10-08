@@ -1,19 +1,7 @@
 {
 	"author": "Willian Juliate",
 	"name": "Monokai Remastered Light",
-	"type": "light",	
-	"semanticTokenColors": {
-		"class:java": "#006D82",
-		"class.static:java": "#006D82",
-		"class.defaultLibrary:java": "#006D82",
-		"class.defaultLibrary.static:java": "#006D82",
-		"type.defaultLibrary:java": "#006D82",
-		"type.defaultLibrary.static:java": "#006D82",
-		"interface:java": "#006D82",
-		"interface.static:java": "#006D82",
-		"enum:java": "#006D82",
-		"enum.static:java": "#006D82",		
-	},
+	"type": "light",		
 	"colors": {
 		"editor.background": "#E8E8E2",
 		"editor.foreground": "#383830",
@@ -778,17 +766,7 @@
 			"settings": {
 				"foreground": "#006D82"
 			}
-		},
-		{
-			"name": "Java var keyword",
-			"scope": [
-				"storage.type.var.java",
-				"keyword.other.var.java"
-			],
-			"settings": {
-				"foreground": "#F92672"
-			}
-		},
+		},		
 		{
 			"name": "Java primitive types",
 			"scope": "storage.type.primitive.java",
