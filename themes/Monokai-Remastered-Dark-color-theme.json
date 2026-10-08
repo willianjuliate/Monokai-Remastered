@@ -1,9 +1,21 @@
 {
 	"author": "Willian Juliate",
 	"name": "Monokai Remastered Dark",
-	"type": "dark",
+	"type": "dark",	
 	"semanticTokenColors": {
-		"class.defaultLibrary": "#AE81FF"
+		"class:java": "#66D9EF",
+		"class.static:java": "#66D9EF",
+		"class.defaultLibrary:java": "#66D9EF",
+		"class.defaultLibrary.static:java": "#66D9EF",
+		"type:java": "#66D9EF",
+		"type.static:java": "#66D9EF",
+		"type.defaultLibrary:java": "#66D9EF",
+		"type.defaultLibrary.static:java": "#66D9EF",
+		"interface:java": "#66D9EF",
+		"interface.static:java": "#66D9EF",
+		"enum:java": "#66D9EF",
+		"enum.static:java": "#66D9EF",
+		"keyword:java": "#F92672"
 	},
 	"colors": {
 		"editor.background": "#171717",
@@ -287,14 +299,14 @@
 			"name": "Class name",
 			"scope": "entity.name.type, entity.name.class, entity.name.scope-resolution",
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#A6E22E"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -769,6 +781,16 @@
 			}
 		},
 		{
+			"name": "Java var keyword",
+			"scope": [
+				"storage.type.var.java",
+				"keyword.other.var.java"
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
 			"name": "Java primitive types",
 			"scope": "storage.type.primitive.java",
 			"settings": {
@@ -792,7 +814,8 @@
 				"entity.name.type.annotation.java",
 				"entity.name.type.record.java",
 				"entity.name.type.type-parameter.java",
-				"support.type.java"
+				"support.class.java",
+				"support.type.java"				
 			],
 			"settings": {
 				"foreground": "#66D9EF"
@@ -838,5 +861,5 @@
 			}
 		}
 	],
-	"semanticHighlighting": false
+	"semanticHighlighting": true
 }
