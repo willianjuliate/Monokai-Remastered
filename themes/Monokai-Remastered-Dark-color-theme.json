@@ -696,7 +696,7 @@
 			],
 			"settings": {
 				// "foreground": "#66D9EF"
-				"foreground": "#FD971F"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -796,6 +796,13 @@
 			"settings": {
 				// "foreground": "#66D9EF"
 				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Java imported type names",
+			"scope": "meta.import.java",
+			"settings": {
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
