@@ -150,7 +150,8 @@
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#868686"
+				"foreground": "#868686",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -837,5 +838,8 @@
 			}
 		}
 	],
+	"semanticTokenColors": {
+		"namespace:java": "#E6E6E3"
+	},
 	"semanticHighlighting": true
 }
