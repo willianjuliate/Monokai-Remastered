@@ -20,7 +20,7 @@ Monokai Remastered Dark & Light brings together a dark, cinematic palette and a 
 
 ### Monokai Remastered Dark
 
-- Background: `#0C0C0C`
+- Background: `#171717`
 - Foreground: `#E6E6E3`
 - Accent: `#F92672`
 - String: `#5DC863`
