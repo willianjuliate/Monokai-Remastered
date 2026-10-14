@@ -2,9 +2,9 @@
   "name": "monokai-remastered",
   "displayName": "Monokai Remastered",
   "description": "A refined Monokai-inspired theme with deep contrast, vibrant accents, and a clean light variant for focused coding.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "Willian Juliate",
-  "icon": "mr.png",
+  "icon": "icon-initials.png",
   "engines": {
     "vscode": "^1.105.0"
   },

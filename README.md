@@ -45,6 +45,7 @@ Monokai Remastered Dark & Light brings together a dark, cinematic palette and a 
 
 For the best experience, pair it with a modern monospace font such as:
 
+- [Monego](https://github.com/cseelus/monego)
 - [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro)
 - [JetBrains Mono](https://www.jetbrains.com/pt-br/language-mono/)
 - [Fira Code](https://github.com/tonsky/FiraCode)
