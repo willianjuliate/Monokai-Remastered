@@ -18,6 +18,8 @@ Monokai Remastered Dark & Light brings together a dark, cinematic palette and a 
 
 ## Preview
 
+![Side-by-side color reference for Monokai Remastered Dark and Light](img.png)
+
 ### Monokai Remastered Dark
 
 - Background: `#171717`
