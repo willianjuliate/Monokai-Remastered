@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+### Changed
+- Set Java imported type names to the neutral foreground color in both themes.
+
 ## [0.0.8] - 2026-10-14
 
 ### Changed

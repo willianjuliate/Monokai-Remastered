@@ -807,6 +807,13 @@
 			}
 		},
 		{
+			"name": "Java imported type names",
+			"scope": "meta.import.java entity.name.type.java, meta.import.java support.class.java, meta.import.java support.type.java",
+			"settings": {
+				"foreground": "#383830"
+			}
+		},
+		{
 			"name": "Java methods",
 			"scope": [
 				"entity.name.function.java",
