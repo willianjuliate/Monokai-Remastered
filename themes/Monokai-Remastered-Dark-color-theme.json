@@ -1,7 +1,7 @@
 {
 	"author": "Willian Juliate",
 	"name": "Monokai Remastered Dark",
-	"type": "dark",		
+	"type": "dark",
 	"colors": {
 		"editor.background": "#171717",
 		"editor.foreground": "#E6E6E3",
@@ -28,7 +28,9 @@
 		"dropdown.background": "#171717",
 		"dropdown.listBackground": "#171717",
 		"list.activeSelectionBackground": "#1f1f1f",
+		"list.activeSelectionForeground": "#E6E6E3",
 		"list.inactiveSelectionBackground": "#171717",
+		"list.inactiveSelectionForeground": "#E6E6E3",
 		"list.hoverBackground": "#1f1f1f",
 		"list.dropBackground": "#171717",
 		"list.highlightForeground": "#E6E6E3",
@@ -37,8 +39,8 @@
 		"minimap.selectionHighlight": "#878b9180",
 		"tab.inactiveBackground": "#1c1c1c",
 		"tab.border": "#171717",
-		"tab.inactiveForeground": "#474746",
-		"tab.unfocusedInactiveForeground": "#474746",
+		"tab.inactiveForeground": "#7A7A75",
+		"tab.unfocusedInactiveForeground": "#7A7A75",
 		"tab.unfocusedActiveForeground": "#F2F2EE",
 		"tab.lastPinnedBorder": "#171717",
 		"widget.shadow": "#00000098",
@@ -62,9 +64,9 @@
 		"sideBarSectionHeader.background": "#171717",
 		"menu.background": "#171717",
 		"menu.foreground": "#cccccc",
-		"pickerGroup.foreground": "#1f1f1f",
-		"inputOption.activeBorder": "#1f1f1f",
-		"focusBorder": "#1f1f1f",
+		"pickerGroup.foreground": "#5A5A55",
+		"inputOption.activeBorder": "#5A5A55",
+		"focusBorder": "#5A5A55",
 		"editorWidget.background": "#171717",
 		"debugToolBar.background": "#171717",
 		"diffEditor.insertedTextBackground": "#4b661680",
@@ -83,9 +85,9 @@
 		"peekViewResult.selectionBackground": "#171717",
 		"peekViewResult.matchHighlightBackground": "#1f1f1f",
 		"peekViewEditor.matchHighlightBackground": "#1f1f1f",
-		"terminal.background": "#181818",
+		"terminal.background": "#171717",
 		"terminal.foreground": "#F2F2EE",
-		"terminalCursor.foreground": "#4b4b4a",
+		"terminalCursor.foreground": "#E6E6E3",
 		"terminal.selectionBackground": "#2d2d2d",
 		"terminal.inactiveSelectionBackground": "#1d1d1d",
 		"terminal.ansiBlack": "#333333",
@@ -119,14 +121,6 @@
 			"settings": {
 				"foreground": "#E6E6E3"
 			}
-		},
-		{
-			"scope": "keyword.control.return",
-			"settings": {}
-		},
-		{
-			"scope": "entity.name.function",
-			"settings": {}
 		},
 		{
 			"name": "PHP Variable Dollar Sign",
@@ -229,14 +223,14 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#F92672",
+				"foreground": "#F92672"
 			}
 		},
 		{
 			"name": "Sublime C#  keywords",
 			"scope": "keyword.other.var.cs, keyword.other.namespace, keyword.operator.arrow, keyword.other.class, keyword.other.enum, keyword.type, keyword.other.get, keyword.other.set",
 			"settings": {
-				"foreground": "#66D9EF",
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -369,11 +363,6 @@
 			}
 		},
 		{
-			"name": "Library variable",
-			"scope": "support.other.variable",
-			"settings": {}
-		},
-		{
 			"name": "JSON String",
 			"scope": "meta.structure.dictionary.json string.quoted.double.json",
 			"settings": {
@@ -436,7 +425,7 @@
 		},
 		{
 			"name": "Markup Styling",
-			"scope": "markup.bold, markup.",
+			"scope": "markup.bold, markup.italic",
 			"settings": {
 				"foreground": "#66D9EF"
 			}
@@ -464,7 +453,7 @@
 			}
 		},
 		{
-			"name": "Markup Headings",
+			"name": "Markdown Headings",
 			"scope": "markup.heading.markdown",
 			"settings": {
 				"fontStyle": "bold"
@@ -500,8 +489,10 @@
 		},
 		{
 			"name": "Markdown Emphasis",
-			"scope": "markup..markdown",
-			"settings": {}
+			"scope": "markup.italic.markdown",
+			"settings": {
+				"fontStyle": "italic"
+			}
 		},
 		{
 			"name": "Markdown Punctuation Definition Link",
@@ -553,7 +544,7 @@
 		// Second class C++ support
 		{
 			"name": "Sublime C++ White highlights",
-			"scope": "entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, keyword.operator.comparison.cpp, entity.name.type.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
+			"scope": "entity.name.scope-resolution.cpp, keyword.operator.decrement.cpp, keyword.operator.increment.cpp, keyword.operator.assignment.cpp, keyword.operator.assignment.compound.cpp, keyword.operator.assignment.compound.bitwise.cpp, keyword.operator.bitwise.cpp, keyword.operator.bitwise.shift.cpp, keyword.operator.logical.cpp, keyword.operator.ternary.cpp, keyword.operator.cpp, keyword.operator.comparison.cpp, entity.name.type.parameter.cpp, variable.parameter.cpp",
 			"settings": {
 				"foreground": "#E6E6E3"
 			}
@@ -610,33 +601,33 @@
 			"name": "Namespace name",
 			"scope": "entity.name.namespace.cpp",
 			"settings": {
-				"foreground": "#A6E22E",
+				"foreground": "#A6E22E"
 			}
 		},
 		{
 			"name": "Namespace keyword",
 			"scope": "storage.type.namespace.definition.cpp",
 			"settings": {
-				"foreground": "#F92672",
+				"foreground": "#F92672"
 			}
 		},
 		{
 			"name": "Access modifier keyword",
 			"scope": "storage.type.modifier.access",
 			"settings": {
-				"foreground": "#F92672",
+				"foreground": "#F92672"
 			}
 		},
 		{
 			"name": "Access modifier colon",
 			"scope": "punctuation.separator.colon.access.control.cpp",
 			"settings": {
-				"foreground": "#E6E6E3",
+				"foreground": "#E6E6E3"
 			}
 		},
 		{
 			// Not perfect, but the best we can do without updating C++ language support
-			"name": "Inherited class",
+			"name": "C++ qualified type",
 			"scope": "meta.qualified_type.cpp, entity.name.type.cpp",
 			"settings": {
 				"foreground": "#A6E22E"
@@ -675,7 +666,6 @@
 		{
 			"name": "C Operators",
 			"scope": [
-				"storage.modifier.pointer.c",
 				"keyword.operator.assignment.c",
 				"keyword.operator.assignment.compound.bitwise.c",
 				"keyword.operator.assignment.compound.c",
@@ -695,7 +685,6 @@
 				"punctuation.separator.pointer-access.c"
 			],
 			"settings": {
-				// "foreground": "#66D9EF"
 				"foreground": "#F92672"
 			}
 		},
@@ -703,7 +692,7 @@
 			"name": "Sublime C Non numeric suffix",
 			"scope": "keyword.other.unit.suffix.integer.c, keyword.other.unit.suffix.floating-point.c",
 			"settings": {
-				"foreground": "#AE81FF",
+				"foreground": "#AE81FF"
 			}
 		},
 		{
@@ -743,6 +732,75 @@
 				"foreground": "#66D9EF"
 			}
 		},
+		// Second class Go support
+		{
+			"name": "Go keywords",
+			"scope": [
+				"keyword.package.go",
+				"keyword.import.go",
+				"keyword.function.go",
+				"keyword.var.go",
+				"keyword.const.go",
+				"keyword.type.go",
+				"keyword.struct.go",
+				"keyword.interface.go",
+				"keyword.map.go",
+				"keyword.channel.go"
+			],
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Go built-in types",
+			"scope": [
+				"storage.type.numeric.go",
+				"storage.type.string.go",
+				"storage.type.boolean.go",
+				"storage.type.byte.go",
+				"storage.type.rune.go",
+				"storage.type.error.go",
+				"storage.type.any.go"
+			],
+			"settings": {
+				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"name": "Go package name",
+			"scope": "entity.name.package.go",
+			"settings": {
+				"foreground": "#E6E6E3"
+			}
+		},
+		{
+			"name": "Go constants",
+			"scope": "variable.other.constant.go",
+			"settings": {
+				"foreground": "#AE81FF"
+			}
+		},
+		{
+			"name": "Go address-of operator",
+			"scope": "keyword.operator.address.go",
+			"settings": {
+				"foreground": "#66D9EF"
+			}
+		},
+		{
+			"name": "Go channel operator",
+			"scope": "keyword.operator.channel.go, keyword.operator.arrow.go",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Go format verbs",
+			"scope": "constant.other.placeholder.go",
+			"settings": {
+				"foreground": "#FD971F"
+			}
+		},
 		{
 			"name": "Java keywords and modifiers",
 			"scope": [
@@ -765,7 +823,7 @@
 			"settings": {
 				"foreground": "#66D9EF"
 			}
-		},		
+		},
 		{
 			"name": "Java primitive types",
 			"scope": "storage.type.primitive.java",
@@ -791,11 +849,10 @@
 				"entity.name.type.record.java",
 				"entity.name.type.type-parameter.java",
 				"support.class.java",
-				"support.type.java"				
+				"support.type.java"
 			],
 			"settings": {
-				// "foreground": "#66D9EF"
-				"foreground": "#F92672"
+				"foreground": "#66D9EF"
 			}
 		},
 		{
@@ -806,7 +863,7 @@
 			}
 		},
 		{
-			"name": "Java imported type names",
+			"name": "Java imported type names (nested)",
 			"scope": "meta.import.java entity.name.type.java, meta.import.java support.class.java, meta.import.java support.type.java",
 			"settings": {
 				"foreground": "#E6E6E3"
@@ -853,7 +910,16 @@
 		}
 	],
 	"semanticTokenColors": {
-		"namespace:java": "#E6E6E3"
+		"namespace:java": "#E6E6E3",
+		"namespace:go": "#E6E6E3",
+		"variable.readonly:go": "#AE81FF",
+		"variable.readonly.defaultLibrary:go": "#AE81FF",
+		"type.defaultLibrary:go": "#66D9EF",
+		"typeParameter:go": "#66D9EF",
+		"function.defaultLibrary:go": "#A6E22E",
+		"method:go": "#A6E22E",
+		"parameter:go": "#FD971F",
+		"property:go": "#E6E6E3"
 	},
 	"semanticHighlighting": true
 }
