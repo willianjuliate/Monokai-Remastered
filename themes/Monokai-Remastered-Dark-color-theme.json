@@ -563,7 +563,7 @@
 				"keyword.operator.pointer.c"
 			],
 			"settings": {
-				"foreground": "#FD971F"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -580,7 +580,7 @@
 				"keyword.operator.reference.c"
 			],
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -649,7 +649,7 @@
 				"keyword.operator.pointer.c"
 			],
 			"settings": {
-				"foreground": "#FD971F"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -660,7 +660,7 @@
 				"keyword.operator.reference.c"
 			],
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#F92672"
 			}
 		},
 		{
@@ -781,10 +781,14 @@
 			}
 		},
 		{
-			"name": "Go address-of operator",
-			"scope": "keyword.operator.address.go",
+			"name": "Go pointer and address-of operators",
+			"scope": [
+				"keyword.operator.address.go",
+				"keyword.operator.pointer.go",
+				"keyword.operator.dereference.go"
+			],
 			"settings": {
-				"foreground": "#66D9EF"
+				"foreground": "#F92672"
 			}
 		},
 		{
