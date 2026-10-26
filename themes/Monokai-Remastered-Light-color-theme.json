@@ -769,9 +769,12 @@
 		},
 		{
 			"name": "Go package name",
-			"scope": "entity.name.package.go",
+			"scope": [
+				"entity.name.package.go",
+				"entity.name.type.package.go"
+			],
 			"settings": {
-				"foreground": "#383830"
+				"fontStyle": "underline"
 			}
 		},
 		{
@@ -804,6 +807,91 @@
 			"scope": "constant.other.placeholder.go",
 			"settings": {
 				"foreground": "#A54A00"
+			}
+		},
+		// Second class JavaScript / TypeScript support
+		{
+			"name": "JS/TS decorator @",
+			"scope": "punctuation.decorator",
+			"settings": {
+				"foreground": "#C2185B"
+			}
+		},
+		{
+			"name": "TS enum members",
+			"scope": "variable.other.enummember",
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		// Second class CSS support
+		{
+			"name": "CSS pseudo-classes and pseudo-elements",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css"
+			],
+			"settings": {
+				"foreground": "#006D82"
+			}
+		},
+		{
+			"name": "CSS property values",
+			"scope": [
+				"support.constant.property-value.css",
+				"support.constant.font-name.css",
+				"support.constant.color.w3c-standard-color-name.css"
+			],
+			"settings": {
+				"foreground": "#A54A00"
+			}
+		},
+		{
+			"name": "CSS custom properties",
+			"scope": [
+				"variable.css",
+				"variable.argument.css",
+				"support.type.custom-property.name.css"
+			],
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		{
+			"name": "CSS url()",
+			"scope": "variable.parameter.url.css",
+			"settings": {
+				"foreground": "#766000"
+			}
+		},
+		{
+			"name": "CSS keyframe offsets",
+			"scope": [
+				"entity.other.keyframe-offset.css",
+				"entity.other.keyframe-offset.percentage.css"
+			],
+			"settings": {
+				"foreground": "#7041B8"
+			}
+		},
+		// Second class HTML support
+		{
+			"name": "HTML doctype",
+			"scope": [
+				"meta.tag.metadata.doctype.html entity.name.tag",
+				"meta.tag.metadata.doctype.html entity.other.attribute-name",
+				"meta.tag.sgml.doctype.html entity.name.tag",
+				"meta.tag.sgml.doctype.html entity.other.attribute-name"
+			],
+			"settings": {
+				"foreground": "#696861"
+			}
+		},
+		{
+			"name": "HTML attribute equals sign",
+			"scope": "punctuation.separator.key-value.html",
+			"settings": {
+				"foreground": "#C2185B"
 			}
 		},
 		{
@@ -924,7 +1012,11 @@
 		"function.defaultLibrary:go": "#476C00",
 		"method:go": "#476C00",
 		"parameter:go": "#A54A00",
-		"property:go": "#383830"
+		"property:go": "#383830",
+		"variable.defaultLibrary:typescript": "#006D82",
+		"variable.defaultLibrary:javascript": "#006D82",
+		"variable.defaultLibrary:typescriptreact": "#006D82",
+		"variable.defaultLibrary:javascriptreact": "#006D82"
 	},
 	"semanticHighlighting": true
 }
